@@ -28,10 +28,9 @@ const timelineItems = [
           "Developed a suite of applications for a Boston based company serving in GRC domain. Their products allow businesses to automate GRC processes using AI and machine learning. The products are built using <span class='font-semibold'>React.js</span> for frontend and <span class='font-semibold'>Node.js</span> with <span class='font-semibold'>PostgreSQL</span> database for backend. The UI components are built using <span class='font-semibold'>RadixUI</span> for accessibility. Database schema is managed using <span class='font-semibold'>Prisma</span> ORM.",
       },
       {
-        title: "Ampere Computing",
-        website: "https://amperecomputing.com",
+        title: "Santa Clara based processor manufacturing company",
         description:
-          "Ampere Computing is a semiconductor company that develops ARM-based microprocessors for servers. I helped them develop their main website and various information portals that help them showcase their products and offerings. These products are built using <span class='font-semibold'>Next.JS</span> frontend and a <span class='font-semibold'>Strapi</span> and <span class='font-semibold'>PostgreSQL</span> based backend.",
+          "Worked for a semiconductor company that develops ARM-based microprocessors for servers. I helped them develop their main website and various information portals that help them showcase their products and offerings. These products are built using <span class='font-semibold'>Next.JS</span> frontend and a <span class='font-semibold'>Strapi</span> and <span class='font-semibold'>PostgreSQL</span> based backend.",
       },
       {
         title: "Commutec",
