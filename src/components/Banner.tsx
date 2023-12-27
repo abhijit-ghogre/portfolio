@@ -17,27 +17,31 @@ function Banner() {
           alt=""
           className="absolute -z-10 top-0 opacity-[0.15]"
         />
-        <div className="text-primary-foreground relative font-light text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px]">
+        <div className="text-primary-foreground relative text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px]">
           Abhijit Ghogre
         </div>
-        <div className="text-secondary-foreground relative font-semibold text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px]">
-          Full-stack Developer
+        <div className="mt-2 text-secondary-foreground relative font-medium text-[20px] md:text-[30px]">
+          Head of Engineering @ Stealth Startup
         </div>
         <div className="mt-4 leading-normal text-lg">
-          I develop web and mobile applications using{" "}
+          I am currently spearheading the creation of a global{" "}
+          <span className="font-bold">B2B e-commerce</span> marketplace. I have{" "}
+          <span className="font-bold">10+ years</span> of experience building
+          backend, frontend and infrastructure for various applications and
+          platforms in e-commerce, fleet management and GRC (governance, risk
+          and compliance) domains. I have experience working with{" "}
+          <span className="font-bold">zero-to-one</span> fast paced startups as
+          well as managing SDLC for products running at{" "}
+          <span className="font-bold">scale</span>. I like to take up
+          challenging problems and convert them into beautiful solutions. I am a
+          strong enforcer of good coding standards and writing beautiful code. I
+          mainly use{" "}
           <span className="font-bold">
-            React.js, ReactNative, Vue.js or Svelte{" "}
-          </span>
+            React.js, Next.js, ReactNative, Vue.js or Svelte
+          </span>{" "}
           for front end and{" "}
           <span className="font-bold">Node.js, Laravel or Adonis.js</span> for
-          backend. I work with a team of talented developers and collaborate
-          with and consult for <span className="font-bold">global clients</span>{" "}
-          to deliver <span className="font-bold">high-quality</span>,{" "}
-          <span className="font-bold">user friendly</span> and{" "}
-          <span className="font-bold">scalable</span> products. I like to take
-          up challenging problems and convert them into beautiful solutions.{" "}
-          <br />I am a strong enforcer of good coding standards and writing
-          beautiful code.
+          backend.
         </div>
         <SocialActions className="mt-4 flex gap-6" />
         <a

@@ -46,9 +46,11 @@ function TimelineItem(props: Props) {
           <div>
             {startMonth} - {isPresent(endMonth)}
           </div>
-          <div className="text-sm">
-            {getDurationInYears(startMonth, endMonth)} years
-          </div>
+          {getDurationInYears(startMonth, endMonth) > 0 && (
+            <div className="text-sm">
+              {getDurationInYears(startMonth, endMonth)} years
+            </div>
+          )}
         </div>
         <div className="font-semibold text-lg text-primary-foreground leading-none">
           {companyName}

@@ -1,13 +1,36 @@
 import React from "react";
 import TimelineItem from "./TimelineItem";
 import { TechnologyName } from "@/components/Technology";
+import dayjs from "dayjs";
 
 const timelineItems = [
   {
+    startMonth: "Dec 2023",
+    endMonth: dayjs().format("MMM YYYY"),
+    companyName: "Stealth Startup",
+    designation: "Head of Engineering",
+    technologies: [
+      "React.js",
+      "NEXT.JS",
+      "React Native",
+      "Node.js",
+      "tailwindcss",
+      "RadixUi",
+      "tRPC",
+      "MySQL",
+    ] as TechnologyName[],
+    responsibilities: [
+      {
+        title: "B2B global marketplace",
+        description: "",
+      },
+    ],
+  },
+  {
     startMonth: "Aug 2022",
-    endMonth: "Dec 2023",
+    endMonth: "Nov 2023",
     companyName: "Full-Stack Interactive LLP",
-    designation: "Senior Software Engineer",
+    designation: "Co-Founder",
     technologies: [
       "React.js",
       "NEXT.JS",
