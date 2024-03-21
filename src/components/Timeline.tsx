@@ -56,10 +56,10 @@ const timelineItems = [
           "Worked for a semiconductor company that develops ARM-based microprocessors for servers. I helped them develop their main website and various information portals that help them showcase their products and offerings. These products are built using <span class='font-semibold'>Next.JS</span> frontend and a <span class='font-semibold'>Strapi</span> and <span class='font-semibold'>PostgreSQL</span> based backend.",
       },
       {
-        title: "Commutec",
-        website: "https://commutec.in",
+        title: "FleetOz",
+        website: "https://fleetoz.com",
         description:
-          "Developed a fleet management system for Commutec. They provide end to end fleet management services and SAAS based employee transportation management platform. They have been selected as Top 10 mobility company by SHELL in 2020 and chosen as top 50 Mobility companies by NASSCOM in 2019. The system is built using <span class='font-semibold'>React.js</span> for frontend and <span class='font-semibold'>Node.js + tRPC</span> with <span class='font-semibold'>MySQL</span> database for backend. The UI/UX components are built using <span class='font-semibold'>RadixUI + tailwindcss</span>. Database schema is managed using <span class='font-semibold'>Prisma</span> ORM.",
+          "Developed a fleet management system for Aurafox. They provide end to end fleet management services and SAAS based employee transportation management platform. They have been selected as Top 10 mobility company by SHELL in 2020 and chosen as top 50 Mobility companies by NASSCOM in 2019. The system is built using <span class='font-semibold'>React.js</span> for frontend and <span class='font-semibold'>Node.js + tRPC</span> with <span class='font-semibold'>MySQL</span> database for backend. The UI/UX components are built using <span class='font-semibold'>RadixUI + tailwindcss</span>. Database schema is managed using <span class='font-semibold'>Prisma</span> ORM.",
       },
     ],
   },
