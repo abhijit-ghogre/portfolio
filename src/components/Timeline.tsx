@@ -1,13 +1,35 @@
-import React from "react";
-import TimelineItem from "./TimelineItem";
 import { TechnologyName } from "@/components/Technology";
 import dayjs from "dayjs";
+import TimelineItem from "./TimelineItem";
 
 const timelineItems = [
   {
-    startMonth: "Dec 2023",
+    startMonth: "Oct 2024",
     endMonth: dayjs().format("MMM YYYY"),
-    companyName: "Stealth Startup",
+    companyName: "ViralMe",
+    designation: "Head of Engineering",
+    technologies: [
+      "React.js",
+      "NEXT.JS",
+      "React Native",
+      "Node.js",
+      "tailwindcss",
+      "RadixUi",
+      "tRPC",
+      "PostgreSQL",
+    ] as TechnologyName[],
+    responsibilities: [
+      {
+        title: "UGC scaling for D2C brands",
+        description:
+          "ViralMe is an Influencer Marketplace for D2C brands and creators to tie up powered by UGC style videos and affiliate links. ViralMe is backed by leading VCs.",
+      },
+    ],
+  },
+  {
+    startMonth: "Dec 2023",
+    endMonth: "Oct 2024",
+    companyName: "Turnover",
     designation: "Head of Engineering",
     technologies: [
       "React.js",
@@ -22,7 +44,7 @@ const timelineItems = [
     responsibilities: [
       {
         title: "B2B global marketplace",
-        description: "",
+        description: "AI powered B2B Marketplace focused on the US Market.",
       },
     ],
   },
