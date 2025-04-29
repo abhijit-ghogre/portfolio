@@ -118,7 +118,7 @@ const timelineItems = [
   {
     startMonth: "Sep 2016",
     endMonth: "Jan 2020",
-    companyName: "Shop101",
+    companyName: "Shop101 (acquired by Glance, Inmobi Group)",
     designation: "Senior Software Engineer",
     technologies: [
       "React.js",
