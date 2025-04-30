@@ -21,13 +21,15 @@ const timelineItems = [
     ] as TechnologyName[],
     responsibilities: [
       {
-        title: "Turnover: B2B global marketplace",
-        description: "AI powered B2B Marketplace focused on the US Market.",
-      },
-      {
         title: "Viralme: UGC scaling for D2C brands",
         description:
           "ViralMe is an Influencer Marketplace for D2C brands and creators to tie up powered by UGC style videos and affiliate links. ViralMe is backed by leading VCs.",
+        website: "https://viralme.club",
+      },
+      {
+        title: "Turnover: B2B global marketplace",
+        description: "AI powered B2B Marketplace focused on the US Market.",
+        website: "https://turnover.biz",
       },
     ],
   },
