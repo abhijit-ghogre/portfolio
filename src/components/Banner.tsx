@@ -21,18 +21,14 @@ function Banner() {
         </div>
         <div className="mt-2 text-secondary-foreground relative font-medium text-[20px] md:text-[30px]">
           Head of Engineering{" "}
-          <a href="https://viralme.club" target="_blank" className="text-link">
-            @ViralMe
+          <a href="https://rancelab.com" target="_blank" className="text-link">
+            @RanceLab
           </a>
         </div>
         <div className="mt-4 leading-normal text-lg">
-          I am currently spearheading the creation of an influencer marketplace
-          (
-          <a href="https://viralme.club" target="_blank" className="text-link">
-            viralme.club
-          </a>
-          ) for D2C brands and creators to tie up powered by UGC style videos
-          and affiliate links. I have{" "}
+          Currently spearheading the creation of a thoughtfully crafted,
+          next-generation cloud suite that reimagines how food & beverage and
+          hospitality businesses manage operations, grow, and thrive. I have{" "}
           <span className="font-bold">10+ years of experience</span> building
           backend, frontend and infrastructure for various applications and
           platforms in e-commerce - storefronts, seller portals and live

@@ -4,8 +4,32 @@ import TimelineItem from "./TimelineItem";
 
 const timelineItems = [
   {
-    startMonth: "Dec 2023",
+    startMonth: "July 2025",
     endMonth: dayjs().format("MMM YYYY"),
+    companyName: "RanceLab",
+    designation: "Head of Engineering",
+    technologies: [
+      "React.js",
+      "NEXT.JS",
+      "Node.js",
+      "tailwindcss",
+      "RadixUi",
+      "tRPC",
+      "Prisma",
+      "PostgreSQL",
+    ] as TechnologyName[],
+    responsibilities: [
+      {
+        title: "The All-in-one Software for Restaurants and Retail Stores",
+        description:
+          "RanceLab was established in the year 1996 for serving the restaurant and retail businesses. It is now one of the leading IT solution providers with its presence in 40 countries with headquarters in India and offices in the Middle East (GCC), Southeast Asia and Africa. We are helping retail and food serving businesses earn more profits since 1996. We have won several industry awards and covered in leading hospitality magazines. However, our biggest rewards are our esteemed clients.",
+        website: "https://rancelab.com",
+      },
+    ],
+  },
+  {
+    startMonth: "Dec 2023",
+    endMonth: "July 2025",
     companyName: "Turnover Global",
     designation: "Head of Engineering",
     technologies: [
