@@ -20,7 +20,7 @@ function Banner() {
           Abhijit Ghogre
         </div>
         <div className="mt-2 text-secondary-foreground relative font-medium text-[20px] md:text-[30px]">
-          Head of Engineering{" "}
+          CTO{" "}
           <a href="https://rancelab.com" target="_blank" className="text-link">
             @RanceLab
           </a>

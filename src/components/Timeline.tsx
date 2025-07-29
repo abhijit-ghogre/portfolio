@@ -7,7 +7,7 @@ const timelineItems = [
     startMonth: "July 2025",
     endMonth: dayjs().format("MMM YYYY"),
     companyName: "RanceLab",
-    designation: "Head of Engineering",
+    designation: "CTO",
     technologies: [
       "React.js",
       "NEXT.JS",
